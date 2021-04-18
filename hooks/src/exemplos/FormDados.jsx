@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PageTitle from '../components/PageTitle';
-import SectionTitle from '../components/SectionTitle'
+import SectionTitle from '../components/SectionTitle';
 
 function FormDados() {
 
