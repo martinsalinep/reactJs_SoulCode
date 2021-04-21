@@ -14,7 +14,9 @@ function Menu (){
         <li><Link to='/FormDados'>formDados</Link></li>
         <li><Link to='/useMemo'>useMemo</Link></li>
         <li><Link to='/createContext'>createContext</Link></li>   
+        <li><Link to='/createContext2'>createContext2</Link></li>
         <li><Link to='/useReducer'>useReducer</Link></li>
+        <li><Link to='/useReducer2'>useReducer2</Link></li>
       </nav>
     </div>
   )

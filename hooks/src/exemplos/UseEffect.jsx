@@ -11,6 +11,11 @@ function UseEffect() {
 
   useEffect(
     () => {
+     setInterval(() => setCount(e => e + 1), 1000 )
+    }, []);
+
+  useEffect(
+    () => {
       setVerifica(`Renderizou ${count} vezes`)
     }, [count]
   );

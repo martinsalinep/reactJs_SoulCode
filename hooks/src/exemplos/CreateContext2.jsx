@@ -1,23 +1,23 @@
 import React, { createContext } from "react";
 import { data } from "../components/Data";
-import UseContext from "./UseContext";
+import UseContext2 from "./UseContext2";
 import PageTitle from "../components/PageTitle";
 import SectionTitle from "../components/SectionTitle";
 
-export const MeuContexto = createContext();
+export const MeuContexto2 = createContext();
 
-function CreateContext() {
+function CreateContext2() {
   return (
     <>
-      <PageTitle title="CreateContext" subtitle="" />
+      <PageTitle title="CreateContext2" subtitle="" />
       <SectionTitle title="Exemplo" />
       <div className="center">
-        <MeuContexto.Provider value={data}>
-          <UseContext />
-        </MeuContexto.Provider>
+        <MeuContexto2.Provider value={data}>
+          <UseContext2 />
+        </MeuContexto2.Provider>
       </div>
     </>
   );
 }
 
-export default CreateContext;
+export default CreateContext2;

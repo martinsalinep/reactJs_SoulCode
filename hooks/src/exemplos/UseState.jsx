@@ -74,6 +74,7 @@ function UseState() {
         <p>Cor: {carro.cor}</p>
         <button onClick={altera}>Altera</button>
       </div>
+      
     </>
 
   )

@@ -9,6 +9,9 @@ import FormDados from '../exemplos/FormDados';
 import UseMemo from '../exemplos/UseMemo';
 import CreateContext from '../exemplos/CreateContext';
 import UseReducer from '../exemplos/UseReducer';
+import CreateContext2 from '../exemplos/CreateContext2';
+import UseReducer2 from '../exemplos/UseReducer2';
+
 
 function Content() {
   return (
@@ -21,7 +24,9 @@ function Content() {
         <Route path='/formDados' component={FormDados} />
         <Route path='/useMemo' component={UseMemo} />
         <Route path='/CreateContext' component={CreateContext} />
+        <Route path='/CreateContext2' component={CreateContext2} />
         <Route path='/UseReducer'component={UseReducer} />
+        <Route path='/UseReducer2'component={UseReducer2} />        
       </Switch>
     </main>
   )

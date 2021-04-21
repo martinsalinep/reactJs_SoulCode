@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { MeuContexto } from "./CreateContext";
-import FilhosDoUseContext from "./FilhoDoUseContext";
+import FilhoDoUseContext from "./FilhoDoUseContext";
 
 function UseContext() {
   const data = useContext(MeuContexto);
@@ -11,7 +11,7 @@ function UseContext() {
       <p>Preço: {data.preco}</p>
       <p>Cor: {data.cor}</p>
       <p>Memória: {data.memoria}</p>
-      <FilhosDoUseContext />
+      <FilhoDoUseContext />
     </>
   );
 }
